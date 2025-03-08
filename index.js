@@ -32,7 +32,7 @@ app.use('/api/wine',reviewWine);
 // Definiendo la conexión a la base de datos a trtavés de mongoose
 // La conexión de tipo de datos es de tipo promesa
 
-mongoose.connect('mongodb://localhost:27017/wine_db')
+mongoose.connect('mongodb+srv://maduni:practica01@clustermadp1.kskdj.mongodb.net/')
 .then( () => {
     //realiza tareas una vez la promesa sea exitosa
     console.log('Conectado a la base de datos de manera exitosa');
